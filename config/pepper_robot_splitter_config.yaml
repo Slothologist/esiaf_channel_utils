@@ -1,0 +1,8 @@
+esiaf_input:
+    topic: /esiaf_ros/input
+    format:
+        sample_rate: 16000
+        bit_rate: int16
+        endian: LE
+        channels: 4
+esiaf_output_topic_prefix: /esiaf_ros/input_split/

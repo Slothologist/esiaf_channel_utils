@@ -1,0 +1,4 @@
+<launch>
+<arg name="path_to_config" />
+<node name="esiaf_splitter" pkg="esiaf_channel_utils" type="start_splitter.py" output="screen" args="$(arg path_to_config)" />
+</launch>
