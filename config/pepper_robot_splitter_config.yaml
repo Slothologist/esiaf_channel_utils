@@ -1,5 +1,5 @@
 esiaf_input:
-    topic: /input
+    topic: /esiaf_ros/ssled
     format:
         sample_rate: 16000
         bit_rate: int16
